@@ -1,3 +1,5 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
     /* button settings */
     --button-width: 4rem;
@@ -13,6 +15,7 @@ button {
     width: var(--button-width);
     height: var(--button-height);
     background-color: var(--button-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
