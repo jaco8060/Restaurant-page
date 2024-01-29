@@ -1,0 +1,24 @@
+:root{
+    /* button settings */
+    --button-width: 4rem;
+    --button-height:2rem;
+    --button-color: rgb(227, 227, 227);
+
+    /* nav settings */
+    --nav-gap: 5rem;
+    --margin-top-nav: 1.5rem;
+}
+
+button {
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--button-color);
+}
+
+nav{
+    display: flex;
+    gap: var(--nav-gap);
+    align-items: center;
+    justify-content: center;
+    margin: var(--margin-top-nav) 0 0 0;
+}
