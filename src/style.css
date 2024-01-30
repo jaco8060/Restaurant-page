@@ -2,13 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
     /* button settings */
-    --button-width: 4rem;
-    --button-height:2rem;
+    --button-width: auto;
+    --button-height:3rem;
     --button-color: rgb(227, 227, 227);
-
+    --button-font-size: 2rem;
     /* nav settings */
     --nav-gap: 5rem;
     --margin-top-nav: 1.5rem;
+
+    /* content */
+    --content-width:50rem;
+    --container-width: 40rem;
+    --margin-top-content:1.5rem;
+    --container-padding: 1rem;
+    --container-gap:1rem;
 }
 
 button {
@@ -16,6 +23,7 @@ button {
     height: var(--button-height);
     background-color: var(--button-color);
     font-family: 'Roboto', sans-serif;
+    font-size: var(--button-font-size);
 }
 
 nav{
@@ -24,4 +32,40 @@ nav{
     align-items: center;
     justify-content: center;
     margin: var(--margin-top-nav) 0 0 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--margin-top-content) 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    gap: var(--container-gap);
+    width:var(--content-width) ;
+    margin: 4rem auto 0 auto;
+    background-color: rgb(247, 218, 154);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.content-child{
+    width: auto;
+    text-align: center;
+    background-color: bisque;
+    padding: var(--container-padding);
+    border-radius: 10px;
+}
+
+
+/* remove bullet points */
+.hours ul {
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+   }
+
+img {
+    width: 10rem;
+    height: 10rem;
+    
 }
