@@ -5,6 +5,7 @@
     --button-width: auto;
     --button-height:3rem;
     --button-color: rgb(227, 227, 227);
+    --button-color-selected: rgb(5, 255, 34);
     --button-font-size: 2rem;
     /* nav settings */
     --nav-gap: 5rem;
