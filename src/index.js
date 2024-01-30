@@ -5,6 +5,7 @@ import "./style.css";
 console.log("Webpack initialized!");
 
 homeDomController.Home();
+
 // contactDomController.Contact();
 const content = document.getElementById("content");
 const homeBtn = document.getElementById("home");

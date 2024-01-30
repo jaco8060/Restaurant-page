@@ -27,7 +27,9 @@ button {
     font-size: var(--button-font-size);
     border-radius: 10px;
 }
-
+#home {
+    background-color: var(--button-color-selected);
+}
 nav{
     display: flex;
     gap: var(--nav-gap);
