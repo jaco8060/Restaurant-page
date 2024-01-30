@@ -57,7 +57,16 @@ nav{
     border-radius: 10px;
 }
 
+.content-child.menu{
 
+    text-align: left;
+
+}
+.content-child.menu h2{
+
+    text-align: center;
+
+}
 /* remove bullet points */
 .hours ul {
     margin: 0; 
