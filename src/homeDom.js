@@ -1,5 +1,5 @@
+import dumpling from "./img/dumpling.svg";
 import "./style.css";
-
 const homeDomController = (function () {
   const Home = () => {
     const content = document.getElementById("content");
@@ -7,7 +7,7 @@ const homeDomController = (function () {
     const titleContainer = document.createElement("div");
     titleContainer.classList.add("title-container");
     const dumplingImg = document.createElement("img");
-    dumplingImg.src = "img/dumpling.svg";
+    dumplingImg.src = dumpling;
     const title = document.createElement("h1");
     title.textContent = "Jerry's Dumplings";
     title.classList.add("title");
