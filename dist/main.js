@@ -818,7 +818,7 @@ const menuDomController = (function () {
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "img/dumpling..svg";
+module.exports = __webpack_require__.p + "img/dumpling.svg";
 
 /***/ })
 
